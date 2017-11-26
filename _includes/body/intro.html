@@ -1,0 +1,149 @@
+<!-- intro -->
+<header id="intro" class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 offset-sm-2 col-md-5 offset-md-0 col-lg-5 offset-lg-0 justify-content-center align-self-center">
+                    <img class="img-circle img-centered img-fluid lazy" data-src="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+                </div>
+                <div class="col-sm-10 offset-sm-1 col-md-7 offset-md-0 col-lg-7 offset-lg-0 vertical-align">
+                    <h1 class="brand-heading">Sergiu Tripon</h1>
+                    <p class="intro-text">{{ site.intro.line }}</p>
+                    <a href="{{ '#about' | prepend: site.baseurl | prepend: site.url }}" class="btn btn-dark btn-md page-scroll">Find Out More <i class="fa fa-chevron-down"></i></a>
+                    {% if site.intro.icons %}
+                    <hr>
+                    <ul class="list-inline social-icons-top">
+                        {% if site.social.email.address %}
+                        <li class="list-inline-item">
+                            <a href="mailto:{{ site.social.email.address }}" target="_blank">
+                                <i class="fa fa-envelope fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.linkedin.username %}
+                        <li class="list-inline-item">
+                            <a href="https://uk.linkedin.com/in/{{ site.social.linkedin.username }}" target="_blank">
+                                <i class="fa fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.github.username %}
+                        <li class="list-inline-item">
+                            <a href="https://github.com/{{ site.social.github.username }}" target="_blank">
+                                <i class="fa fa-github fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.behance.username %}
+                        <li class="list-inline-item">
+                            <a href="https://www.behance.net/{{ site.social.behance.username }}" target="_blank">
+                                <i class="fa fa-behance fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.stackexchange.username %}
+                        <li class="list-inline-item">
+                            <a href="http://stackexchange.com/users/{{ site.social.stackexchange.username }}" target="_blank">
+                                <i class="fa fa-stack-exchange fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.stackoverflow.username %}
+                        <li class="list-inline-item">
+                            <a href="http://stackoverflow.com/users/{{ site.social.stackoverflow.username }}" target="_blank">
+                                <i class="fa fa-stack-overflow fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.paypal.username %}
+                        <li class="list-inline-item">
+                            <a href="https://www.paypal.me/{{ site.social.paypal.username }}" target="_blank">
+                                <i class="fa fa-paypal fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.facebook.username %}
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/{{ site.social.facebook.username }}" target="_blank">
+                                <i class="fa fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.twitter.username %}
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/{{ site.social.twitter.username }}" target="_blank">
+                                <i class="fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.google_plus.username %}
+                        <li class="list-inline-item">
+                            <a href="https://plus.google.com/{{ site.social.google_plus.username }}" target="_blank">
+                                <i class="fa fa-google-plus fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.tumblr.username %}
+                        <li class="list-inline-item">
+                            <a href="http://{{ site.social.tumblr.username }}.tumblr.com/" target="_blank">
+                                <i class="fa fa-tumblr fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.skype.username %}
+                        <li class="list-inline-item">
+                            <a href="skype:{{ site.social.skype.username }}?add">
+                                <i class="fa fa-skype fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.instagram.username %}
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com/{{ site.social.instagram.username }}" target="_blank">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.vine.username %}
+                        <li class="list-inline-item">
+                            <a href="https://vine.co/u/{{ site.social.vine.username }}" target="_blank">
+                                <i class="fa fa-vine fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.soundcloud.username %}
+                        <li class="list-inline-item">
+                            <a href="https://soundcloud.com/{{ site.social.soundcloud.username }}" target="_blank">
+                                <i class="fa fa-soundcloud fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.spotify.username %}
+                        <li class="list-inline-item">
+                            <a href="https://play.spotify.com/user/{{ site.social.spotify.username }}" target="_blank">
+                                <i class="fa fa-spotify fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.youtube.channel %}
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/channel/{{ site.social.youtube.channel }}" target="_blank">
+                                <i class="fa fa-youtube-play fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.social.vimeo.username %}
+                        <li class="list-inline-item">
+                            <a href="https://vimeo.com/{{ site.social.vimeo.username }}" target="_blank">
+                                <i class="fa fa-vimeo fa-2x"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end of intro -->

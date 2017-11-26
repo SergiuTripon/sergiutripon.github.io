@@ -1,0 +1,64 @@
+<!-- projects modals -->{% for post in site.posts %}
+<!-- {{ post.project.modal.aria.labelledby }} -->
+<div id="{{ post.project.modal.id }}" class="modal modal-custom" tabindex="-1" role="dialog" aria-labelledby="{{ post.project.modal.aria.labelledby }}" aria-describedby="{{ post.project.modal.aria.describedby }}">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="col-lg-10 offset-lg-1">
+                    <h2 class="item-title">{{ post.project.title }}</h2>
+                    <p class="item-intro">{{ post.project.description }}</p>
+                </div><!-- /.col-lg-10 -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="fa fa-times" aria-hidden="true"></span>
+                </button>
+            </div><!-- /.modal-header -->
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            <hr>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <b>Date</b>: {{ post.project.date }}
+                                </li>
+                                <li class="list-inline-item">
+                                    <b>Client</b>: {{ post.project.client }}
+                                </li>
+                                <li class="list-inline-item">
+                                    <b>Category</b>: {{ post.project.category.text }}
+                                </li>
+                            </ul>
+                            {% if post.project.quote != empty %}
+                            <hr>
+                            <p class="item-testimonial text-left">{{ post.project.quote }}</p>
+                            <p class="item-testimonial text-right">{{ post.project.quote_author }}</p>
+                            {% endif %}
+                            <hr>
+                            <div class="text-justify">
+                                {{ post.content }}
+                            </div>
+                            <hr>
+                        </div><!-- /.col-lg-10 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div><!-- /.modal-body -->
+            <div class="modal-footer justify-content-center">
+                {% if post.project.github_url != empty %}
+                <a class="btn btn-light btn-md" href="{{ post.project.github_url }}" target="_blank">
+                    GitHub
+                </a>
+                {% endif %}
+                {% if post.project.behance_url != empty %}
+                <a class="btn btn-light btn-md" href="{{ post.project.behance_url }}" target="_blank">
+                    Behance
+                </a>
+                {% endif %}
+                <button type="button" class="btn btn-light btn-md" data-dismiss="modal">
+                    Close <i class="fa fa-times"></i>
+                </button>
+            </div><!-- /.modal-footer -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- end of {{ post.project.modal.aria.labelledby }} -->
+{% endfor %}<!-- end of projects modals -->

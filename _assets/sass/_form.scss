@@ -1,0 +1,119 @@
+/* .form-custom, .input-feedback, .form-success, .form-fail */
+.form-custom {
+  /* display & box model */
+  margin: 50px 0 40px;
+
+  .form-control {
+    /* positioning */
+    position: relative;
+    /* display & box model */
+    height: auto;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 5px;
+    padding: 10px 10px 10px 3px;
+    /* color */
+    color: #FFFF00 !important;
+    border-color: #FFFFFF;
+    background: transparent;
+    /* text */
+    font-size: 15px;
+    /* Other */
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+
+    &:focus {
+      /* color */
+      border-color: #FFFF00;
+      /* other */
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    @include placeholder {
+      /* color */
+      color: #FFFFFF;
+    }
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    /* color */
+    -webkit-text-fill-color: #FFFF00 !important;
+    /* other */
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  }
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  textarea:-webkit-autofill:active {
+    /* color */
+    -webkit-text-fill-color: #FFFF00 !important;
+    /* other */
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  }
+  textarea {
+    /* other */
+    resize: none;
+  }
+}
+
+.input-feedback {
+  /* positioning */
+  position: relative;
+  /* display & box model */
+  margin-bottom: 20px;
+
+  i {
+    /* Positioning */
+    right: 0;
+    position: absolute;
+    /* display & box model */
+    display: none;
+    padding: 12px 12px;
+    /* color */
+    color: #FFFF00;
+    /* other */
+    pointer-events: none;
+  }
+  p {
+    /* display & box model */
+    display: none;
+    margin-bottom: 0;
+    padding-right: 10px;
+    /* color */
+    color: #FFFF00;
+    /* text */
+    text-align: right;
+  }
+}
+
+.form-success {
+  /* display & box model */
+  padding: 170px 0 200px;
+  /* color */
+  color: #FFFF00;
+  /* text */
+  font-size: 16px;
+}
+
+.form-fail {
+  /* display & box model */
+  padding: 10px 0;
+  border-radius: 3px;
+  margin: 0 auto 30px;
+  border: 1px solid #FFFF00;
+  /* color */
+  color: #FFFF00;
+}
+/* .form-custom, .input-feedback, .form-success, .form-fail */

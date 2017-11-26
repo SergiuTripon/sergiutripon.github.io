@@ -1,0 +1,39 @@
+<!-- footer -->
+<section class="footer">
+    <div class="container container-custom">
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-9 offset-md-1 col-lg-8 offset-lg-2">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a class="page-scroll" href="{{ '#intro' | prepend: site.baseurl | site.url }}">Intro</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="page-scroll" href="{{ '#about' | prepend: site.baseurl | site.url }}">About</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="page-scroll" href="{{ '#skills' | prepend: site.baseurl | site.url }}">Skills</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="page-scroll" href="{{ '#projects' | prepend: site.baseurl | site.url }}">Projects</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="page-scroll" href="{{ '#cv' | prepend: site.baseurl | site.url }}">CV</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="page-scroll" href="{{ '#contact' | prepend: site.baseurl | site.url }}">Contact</a>
+                    </li>
+                    <!--<li class="menu-item-blog">
+                    <a href="http://blog.sergiu-tripon.com/" target="_blank">Blog</a>
+                    </li>-->
+                </ul>
+                <hr>
+                <p>
+                    <span>Copyright </span><i class="fa fa-copyright"></i><span> {{ site.time | date: '%Y' }}</span>
+                    <a class="page-scroll" href="{{ '#about' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a>.
+                    <span>Code licensed under </span><a href="{{ '/LICENSE.md' | prepend: site.baseurl | prepend: site.url }}" target="_blank">MIT License</a>.
+                </p>
+            </div><!-- /.col-lg-10 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.contact -->
+<!-- end of footer -->

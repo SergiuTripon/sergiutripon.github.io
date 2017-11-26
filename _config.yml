@@ -1,0 +1,106 @@
+# general
+title: Sergiu Tripon
+author: Sergiu Tripon
+description: >
+  An ambitious and enthusiastic Computer Science graduate with core strengths including a strong analytical ability,
+  excellent communication and organisational skills, and an interest for the way effective digital solutions evolve.
+  Currently new seeking opportunities in web-related roles following the completion of a BSc in Computer Science from
+  City University London (now City, University of London) and an MSc in Web Science and Big Data Analytics from
+  University College London.
+timezone: Europe/London
+
+# urls
+url: http://sergiu-tripon.com
+baseurl: ""
+
+# analytics
+google:
+  tracking: true
+  tracking_id: "UA-66958016-1"
+  ads: false
+  ad_client: "ca-pub-4886481255450612"
+
+# comments
+disqus:
+  comments: true
+  shortname: "sergiu-tripon"
+
+# intro
+intro:
+  icons: true
+  line: Creating Digital Content for the Web
+
+# projects
+projects:
+  comments: true
+
+# contact
+contact:
+  icons: true
+  form: true
+
+# social
+social:
+  email:
+    address: contact@sergiu-tripon.com
+  linkedin:
+    username: sergiutripon
+  github:
+    username: SergiuTripon
+  behance:
+    username: sergiutripon
+  stackexchange:
+    username: 5167860/sergiu-tripon
+  stackoverflow:
+    username: 4137308/sergiu-tripon
+  paypal:
+    username: sergiutripon
+  facebook:
+    id: 100000005070445
+    username: triponsergiu
+  twitter:
+    id: 286066431
+    username: SergiuTripon
+  google_plus:
+    username: 115463900916675278669
+  instagram:
+    username: sergiu_tripon
+  vine:
+    username: 1234534944605372416
+  tumblr:
+    username: sergiutripon
+  skype:
+    username: sergiutripon
+  soundcloud:
+    username: sergiutripon
+  spotify:
+    username: sergiutripon
+  youtube:
+    channel: UCSPiq_mmLpXaosA6oG3WNAQ
+  vimeo:
+    username: sergiutripon
+
+# - http://uk.linkedin.com/in/sergiutripon
+# - https://github.com/SergiuTripon
+# - http://www.behance.net/SergiuTripon
+# - http://stackexchange.com/users/5167860/sergiu-tripon
+# - http://stackoverflow.com/users/4137308/sergiu-tripon
+# - https://www.paypal.me/sergiutripon
+# - http://www.facebook.com/triponsergiu
+# - https://twitter.com/SergiuTripon
+# - http://plus.google.com/115463900916675278669
+# - http://www.instagram.com/sergiu_tripon
+# - http://vine.co/u/1234534944605372416
+# - http://sergiutripon.tumblr.com
+# - skype:sergiutripon?add
+# - http://soundcloud.com/sergiutripon
+# - http://play.spotify.com/user/sergiutripon
+# - http://www.youtube.com/channel/UCSPiq_mmLpXaosA6oG3WNAQ
+# - http://vimeo.com/sergiutripon
+
+# exclude
+exclude:
+- node_modules
+- Gruntfile.js
+- package.json
+- README.md
