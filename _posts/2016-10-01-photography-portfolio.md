@@ -32,5 +32,5 @@ and not a professional camera. Locations of the photos include: Greece, France, 
 You can view the photos that form the Photography Portfolio below.
 
 {% for i in (1..18) %}
-<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-{{ i }}.png" alt="Photography Portfolio - Image {{ i }}" class="img-centered img-fluid modal-lazy"/>
+<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-{{ i }}.png" alt="Photography Portfolio - Image {{ i }}" class="img-fluid modal-lazy"/>
 {% endfor %}

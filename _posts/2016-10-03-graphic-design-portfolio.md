@@ -34,5 +34,5 @@ trade skills and services) in the near future.
 You can view the designs that form the Graphic Design Portfolio below.
 
 {% for i in (1..22) %}
-<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-{{ i }}.png" alt="Graphic Design Portfolio - Image {{ i }}" class="img-centered img-fluid modal-lazy"/>
+<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-{{ i }}.png" alt="Graphic Design Portfolio - Image {{ i }}" class="img-fluid modal-lazy"/>
 {% endfor %}

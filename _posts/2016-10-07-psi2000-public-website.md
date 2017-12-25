@@ -25,7 +25,7 @@ project:
 {% assign img_name = "psi2000-public-website-img" %}
 {% assign img_path = "assets/img/projects/psi2000-public-website" %}
 
-<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-1.png" alt="PSI2000 Public Website - Image 1" class="img-centered img-fluid modal-lazy"/>
+<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-1.png" alt="PSI2000 Public Website - Image 1" class="img-fluid modal-lazy"/>
 
 During my Bachelor’s degree in Computer Science at City University London, I spent a year working as part of an
 industrial placement for PSI2000, a leading provider of Risk Management solutions in the UK. My main role while
@@ -39,7 +39,7 @@ Marketing Assistant Apprentice, I conducted a full re-design of the PSI2000’s 
 graphic design pieces and 6 animated videos for it. This project concentrates on the PSI2000 Public Website Re-design
 Project.
 
-<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-2.png" alt="PSI2000 Public Website - Image 2" class="img-centered img-fluid modal-lazy"/>
+<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-2.png" alt="PSI2000 Public Website - Image 2" class="img-fluid modal-lazy"/>
 
 Both the old website and the new website are built using the Microsoft SharePoint CMS (Content Management System).
 In comparison to the old website, the new website consists of the pages that were already available with a new design
@@ -56,5 +56,5 @@ assess issues further.
 In order to get a visual representation of the project, feel free to have a look at the images provided above and below.
 
 {% for i in (3..30) %}
-<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-{{ i }}.png" alt="PSI2000 Public Website - Image {{ i }}" class="img-centered img-fluid modal-lazy"/>
+<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-{{ i }}.png" alt="PSI2000 Public Website - Image {{ i }}" class="img-fluid modal-lazy"/>
 {% endfor %}

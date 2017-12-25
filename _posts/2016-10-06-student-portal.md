@@ -28,7 +28,7 @@ project:
 {% assign img_name = "student-portal-img" %}
 {% assign img_path = "assets/img/projects/student-portal" %}
 
-<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-1.png" alt="Student Portal - Image 1" class="img-centered img-fluid modal-lazy"/>
+<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-1.png" alt="Student Portal - Image 1" class="img-fluid modal-lazy"/>
 
 In most university degrees, the final year of the degree consists of the same amount of modules as the previous years
 with the exception of an individual project, also known as a dissertation. The Individual Project module runs through
@@ -45,7 +45,7 @@ important third-party integrations being: PayPal PHP Class, TFL (Transport for L
 Bootstrap. It also included other smaller components such as the DataTables table plugin and the select2 select box
 plugin.
 
-<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-2.png" alt="Student Portal - Image 2" class="img-centered img-fluid modal-lazy"/>
+<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-2.png" alt="Student Portal - Image 2" class="img-fluid modal-lazy"/>
 
 Overall, this was the project I enjoyed the most which is probably due to amount of control I had over its direction,
 due to its stressful and challenging progress which always kept me in motion and gave me the hunger to try and achieve
@@ -56,5 +56,5 @@ standard university modules and was awarded 69%.
 In order to get a visual representation of the project, feel free to have a look at the images provided above and below.
 
 {% for i in (3..31) %}
-<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-{{ i }}.png" alt="Student Portal - Image {{ i }}" class="img-centered img-fluid modal-lazy"/>
+<img data-src="{{ site.baseurl }}{{ img_path }}/{{ img_name }}-{{ i }}.png" alt="Student Portal - Image {{ i }}" class="img-fluid modal-lazy"/>
 {% endfor %}
